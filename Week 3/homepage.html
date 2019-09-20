@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  background-image: url('Untitled-2.jpg');
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+.header {
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 2px solid #ededed;
+  background-color: white;
+  padding: 5px 10px;
+
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.header a.logo {
+  font-family: Helvetica neue;
+  margin-left: 80px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.header a:hover {
+  border-radius: 0px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.header a.active {
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+.header-right {
+  font-family: gotham;
+  margin-right: 80px;
+  float: right;
+  font-weight: light;
+
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+  h1 {
+    font-family: gotham;
+    font-weight: bold;
+  }
+  p {
+    font-family: gotham;
+    font-weight: light;
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">Ceritanya CV</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="portofolio.html">Portofolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="aboutme.html">About Me</a>
+  </div>
+</div>
+
+<div style="padding-left: 100px;">
+  <br><br><br><br>
+  <h1>Dino Febriyanto<br>Graphic Designer</h1>
+  <p>Saya adalah seorang Graphic Designer yang sangat handal sekali.
+  <br>Anda tidak akan kecewa jika menyewa saya sebagai Graphic Designer.
+  <br>Maaf jika desain web ini tidak begitu bagus, karena saya dikejar deadline
+  <br>oleh asprak.</p>
+  <a href=aboutme.html class="button button1" >More Info</a>
+</div>
+
+
+</body>
+</html>
